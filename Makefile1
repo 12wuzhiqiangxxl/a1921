@@ -1,0 +1,6 @@
+#thsi is sample
+testCal:lian1.h lian1.c testlian1.c
+		gcc lian1.h lian1.c testlian1.c -o testlian1
+
+clean:
+		rm testCal
