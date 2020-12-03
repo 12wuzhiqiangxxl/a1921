@@ -1,0 +1,5 @@
+#thsi is sample
+testCal:stack.c teststack.c
+		gcc stack.c teststack.c -o teststack
+clean:
+		rm testCal
