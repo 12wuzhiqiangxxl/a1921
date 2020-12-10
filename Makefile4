@@ -1,0 +1,5 @@
+testCal:duilie.c testqueue.c
+			gcc duilie.c testqueue.c -o testqueue
+clean:
+			rm testCal
+
